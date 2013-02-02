@@ -1,0 +1,50 @@
+<p class="lead">
+Our service with Web Engineering changes your business and make your business win in your target the markets.
+</p>
+<dl>
+<dt>Web is dynamic
+&nbsp;<i class="icon-cloud"></i></dt>
+<dd>
+Web site is not static, the contents should change as customers expect something new every day.
+Web site is to showcase your business to customers and it needs to be integrated with all in your business.
+</dd>
+<dt>Web has the purpose
+&nbsp;<i class="icon-trophy"></i></dt>
+</dt>
+<dd>
+Web site should be made with the purpose or no customers find your Web site useful.
+It is worth while when your Web site helps you achieve your business goals.
+</dd>
+<dt>Web needs an owner
+&nbsp;<i class="icon-user-md"></i></dt>
+<dd>
+Creating a web site is not all work you have to do. 
+Web site also requires frequent updates and cares. Web site with friendly interface for someone to maintain without difficulties has great advantages.
+</dd>
+
+<dt>Targeting market is all about targeting the devices
+<i class="icon-desktop"></i>&nbsp;<i class="icon-laptop"></i>&nbsp;<i class="icon-tablet"></i>&nbsp;<i class="icon-mobile-phone"></i></dt>
+<dd>
+Your customers use their favorite devices(like laptop, tablet, smart phone) so what device you target is very important.
+</dd>
+
+<hr>
+<h4>Our services are but not limited to...</h4>
+<p><i class="icon-ok"></i>&nbsp;Create Web site</p>
+<p><i class="icon-ok"></i>&nbsp;Support your web site</p>
+<p><i class="icon-ok"></i>&nbsp;Customize existing Web site</p>
+<p><i class="icon-ok"></i>&nbsp;Fix issues of existing Web site</p>
+<p><i class="icon-ok"></i>&nbsp;Renovate your Web site</p>
+<p><i class="icon-ok"></i>&nbsp;Social plugin utilization(Facebook etc.) on your web site</p>
+<p><i class="icon-ok"></i>&nbsp;Web site optimization for target devices(Smart phone etc)</p>
+<p><i class="icon-ok"></i>&nbsp;Web site statistics(visitors, browsers)</p>
+<p><i class="icon-ok"></i>&nbsp;Data and member Management</p>
+<p><i class="icon-ok"></i>&nbsp;Data Backup</p>
+<p><i class="icon-ok"></i>&nbsp;Web Performance assessment and improvement</p>
+<p><i class="icon-ok"></i>&nbsp;Secure your Web site</p>
+<p><i class="icon-ok"></i>&nbsp;Check and report security vulnerabilities of your Web site (Security Audit)</p>
+<p><i class="icon-ok"></i>&nbsp;add more...</p>
+<h4 class="text-info">
+Please feel free to contact us.
+<br>We come to you. Free of charge for a quote.
+</h4>

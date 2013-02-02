@@ -1,0 +1,17 @@
+<p class="lead">
+When it comes to your business and IT, what investment with IT does produce best profit in your business?
+<br>
+Depending on the scale of your business we propose the best and cost-effective solution for your business to win.
+</p>
+<h5>
+<i class="icon-plane icon-border"></i>&nbsp;Just tell us what your problems are, we are happy to come to hear from you.
+</h5>
+<h5>
+<i class="icon-beer icon-border"></i>&nbsp;We love crazy ideas. Who knows who will build next Facebook or Twitter. 
+</p>
+<h5>
+<i class="icon-thumbs-up icon-border"></i>&nbsp;We are happy to face anything. We win when you win.
+</h5>
+<h4 class="text-info">
+First consulting is totally free, submit your inquiries and get the best option for your business today.
+</h4>

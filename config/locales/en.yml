@@ -1,0 +1,61 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  lang:
+    en: "English"
+    jp: "Japanese"
+    ko: "Korean"
+  op:
+    more: "More"
+    about_us: "About US"
+  ktit:
+    flyer_text: ""
+    head_text: ""
+    lead_text: ""
+    service:
+      first:
+        headline: "Web Engineering"
+        leadline: ""
+  contact:
+    us: "Contact US"
+    please_fillin: "Thank you for filling in the form. We understand English, Japanese and Korean."
+    user_name: "Name"
+    email: "Email Address"
+    phone: "Phone"
+    business_name: "Business Name"
+    check_email_b4_send: "Please double check email address"
+    content: "Content"
+    describe_detail: "Please write with details"
+    submit: "Send"
+    confirm_submit: "Are you sure to submit?"
+    confirm_action: "Confirmation"
+    cancel: "Cancel"
+    received: "Received a contact"
+    thankyou: "Thank you very much for your contact."
+    after: "You will receive a confirmation email from us."
+    inquiry: "Should you have any questions, you can directly contact us on contact@kitiengineering.com or 0433654800"
+  mail:
+    mail_from: "K.T. IT Engineering"
+    admin:
+      subject: "[K.T IT Engineering]"
+    flyer:
+      subject: "[K.T IT Engineering]"
+    post:
+      id: "ID"
+      category: "Category"
+    contact:
+      id: "Contact ID"
+      name: "Name"
+      email: "Email Address"
+      phone: "Phone Number"
+      business_name: "Business Name"
+      received_message: "Received contact from %{from}"
+      subject: "Subject"
+      received_content: "Content"
+      content: "You wrote"
+      confirmation_email: "Contact Confirmation Email"
+      confirmation_email_content1: "Thank you very much for visiting our web site."
+      confirmation_email_content2: "We received your contact."
+      confirmation_email_content3: "We will contact you very soon."
+      confirmation_email_content4: "Should you have any questions, you can reply to this email or 0433654800"

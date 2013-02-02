@@ -1,0 +1,66 @@
+<%= link_to_with_icon("","#","pull-right","","icon-remove-circle icon-4x","contact-close")%>
+<%= _script(%Q|
+	$('\#contact-close').click(function(){
+	$('.contact-form').fadeOut(2000);
+		return false;
+});
+|)%>
+
+<div class="page-header">
+	<h3><%= t("contact.us")%></h3>
+	<h5><%= t("contact.please_fillin")%></h5>
+</div>
+<%= form_for(@contact, :remote => true, :html => { :class => "form-horizontal"}) do |f| %>
+<%= f.hidden_field :contact_type %>
+<%= contact_form_error_messages!(@contact) %>
+<div class="control-group">
+<%= f.label :user_name, t("contact.user_name"), :class => "control-label" %>
+<div class="controls">
+<%= f.text_field :user_name, :class => "input-large" %>
+</div>
+</div>
+<div class="control-group">
+<%= f.label :email, t("contact.email"), :class => "control-label" %>
+<div class="controls">
+<div class="input-prepend">
+	<span class="add-on"><i class="icon-envelope"></i></span><%= f.email_field :email, :class => "input-large" %>
+</div>
+<span class="help-block">
+	<p class="text-success">
+		<%= t("contact.check_email_b4_send")%>
+	</p></span>
+</div>
+</div>
+<div class="control-group">
+<%= f.label :phone, t("contact.phone"), :class => "control-label" %>
+<div class="controls">
+<div class="input-prepend">
+	<span class="add-on"><i class="icon-phone"></i></span><%= f.telephone_field :phone, :class => "input-medium" %>
+</div>
+</div>
+</div>
+<div class="control-group">
+<%= f.label :business_name, t("contact.business_name"), :class => "control-label" %>
+<div class="controls">
+<div class="input-prepend">
+	<span class="add-on"><i class="icon-building"></i></span><%= f.text_field :business_name, :class => "input-large" %>
+</div>
+</div>
+</div>
+<div class="control-group">
+<%= f.label :body, t("contact.content"), :class => "control-label" %>
+<div class="controls">
+<%= f.text_area :body, :rows => "10", :class => "span10" %>
+<span class="help-block">
+	<p class="text-success">
+		<%= t("contact.describe_detail")%>
+	</p></span>
+</div>
+</div>
+<div class="control-group">
+	<div class="controls">
+	<%= f.submit t("contact.submit"), :class => "btn btn-primary", :id => "contact-submit", :data => { :confirm => t('contact.confirm_submit')} %>
+</div>
+</div>
+<div class="contact-result"></div>
+<% end %>

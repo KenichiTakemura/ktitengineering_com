@@ -1,0 +1,17 @@
+<%= "#{t("mail.contact.id")} : #{@contact.id}" %>
+<br>
+<%= "#{t("mail.contact.name")} : #{@contact.user_name}" %>
+<br>
+<%= "#{t("mail.contact.email")} : #{@contact.email}" %>
+<br>
+<%= "#{t("mail.contact.phone")} : #{@contact.phone}" %>
+<br>
+<%= "#{t("mail.contact.business_name")} : #{@contact.business_name}" %>
+<br>
+<%= "#{t("mail.contact.received_content")} : " %>
+<br>
+<%= "-------------------------------------" %>
+<br>
+<%= raw(@contact.body) %>
+<br>
+<%= "-------------------------------------" %>

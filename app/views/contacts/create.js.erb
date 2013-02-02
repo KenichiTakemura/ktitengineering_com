@@ -1,0 +1,5 @@
+<% if @contact.errors.present? %>
+$('.contact-form').html("<%= escape_javascript(render "contacts/lodge")%>")
+<% else %>
+$(".contact-result").html("<%=escape_javascript(show_notice)%>");
+<% end %>

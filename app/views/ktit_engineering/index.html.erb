@@ -1,0 +1,96 @@
+<!-- Top -->
+<% locale = I18n.locale.to_sym%>
+<% if @space.present? %>
+<div class="main box_round">
+	<div class="page-header">
+		<h1 class="">&nbsp;<%= @space.flyer_text%></h1>
+		<!-- %= image_tag(@space.image.last.original_image, :class => "image-resize140_120 page-header-img")% -->
+	</div>
+
+	<div id="showcaseCarousel" class="carousel showcase slide">
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="container">
+					<div class="container-fluid service-container">
+						<div class="row-fluid">
+								<ul class="thumbnails box_round">
+									<% Style.get_services.each do |s| %>
+									<% service = Style.get_service(locale, s)%>
+									<li class="service span12" id="service-<%= service[:id]%>" style="margin-left:10px">
+										<div class="thumbnail " id="service-view-<%= service[:id]%>">
+											<h3><i class="<%= service[:icon]%>"></i><%= service[:headline] %>
+												<span class="service-view-more" id="service-view-more-<%= service[:id]%>" style="display:none">
+												<i class="icon-play"></i>
+											</span>
+											</h3>
+											<p class="lead">
+												<%= service[:leadline] %>
+											</p>
+											<p class="service-view-more" id="service-view-more-<%= service[:id]%>" style="display:none">
+												<i class="icon-play icon-3x"></i>
+											</p>
+											<%= _script(%Q|
+											$('\#service-view-#{service[:id]}').click(function(){
+												$('\#service-view-more-#{service[:id]}').html('<i class="icon-pause"></i>');
+												$('\#contact-form-#{service[:id]}').html('');
+												$('\#service-content-#{service[:id]}').fadeIn('slow');
+												$('\#service-desc-#{service[:id]}').attr('style','margin-left:15px;margin-right:auto;visibility:visible');
+												$('\#service-content-#{service[:id]}').html('#{escape_javascript('<i class="icon-spinner icon-spin icon-3x"></i>')}');
+												#{Ajax::post(%Q|services/view?id=#{service[:id]}|,"")}
+											});
+											$('\#service-view-#{service[:id]}').mouseenter(function(){
+												$('.service-view-more').each(function() {
+													$(this).fadeOut("slow");
+												});
+												$('\#service-view-more-#{service[:id]}').html('<i class="icon-play"></i>');
+												$('\#service-view-more-#{service[:id]}').fadeIn("slow");
+											});
+
+											|)%>
+										</div>
+									</li>
+									<li class="span12 service service-content-<%= service[:id]%> box_round" id="service-desc-<%= service[:id]%>" style="margin:0;visibility:hidden">
+										<div class="service-content" id="service-content-<%= service[:id]%>" style="display:none"></div>
+									</li>
+									<% end %>
+								</ul>
+						</div>
+					</div>
+
+				</div>
+				<!--
+				<div class="carousel-caption">
+					<% if @space.head_text.present? %>
+					<h1><%= @space.head_text %></h1>
+					<% end %>
+					<% if @space.lead_text.present? %>
+					<p class="lead">
+						<%= @space.lead_text %>
+					</p>
+					<% end %>
+				</div>
+				-->
+				<div class="row">
+					<div class="container contact-form" style="display:none">
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="container box_round about" style="display:none">
+					<i class="icon-pushpin icon-4x pull-right wood-pushpin"></i>
+					<%= link_to_with_icon("","#","pull-right","","icon-remove-circle icon-4x","close")%>
+					<%= _script(%Q|
+						$('\#close').click(function(){
+							$('.about').fadeOut(2000);
+							return false;
+						});
+					|)%>
+					<%= raw(Cms.about(I18n.locale))%>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<% end %>

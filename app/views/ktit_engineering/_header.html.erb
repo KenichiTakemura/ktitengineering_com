@@ -1,0 +1,18 @@
+<div class="navbar">
+	<div class="navbar-inner nav-color">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+			<a class="brand" href="<%= root_path%>"><%= image_tag(@client.logo?, :class => "img-rounded") %>&nbsp;&nbsp;&nbsp;
+			<i class="icon-quote-left"></i><%= @client.business_copy %><i class="icon-quote-right"></i></a>
+
+				<!--
+				<li>
+				<%= link_to_with_icon(t("lang.jp"), root_path(:locale => "ja"), "", "", "icon-flag","")%>
+				</li>
+				<li>
+				<%= link_to_with_icon(t("lang.ko"), root_path(:locale => "ko"), "", "", "icon-flag","")%>
+				</li>
+				-->
+		</div>
+	</div>
+</div>

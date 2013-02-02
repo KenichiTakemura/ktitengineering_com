@@ -1,0 +1,37 @@
+<%= t("mail.contact.confirmation_email_content1") %>
+<br>
+<br>
+<%= t("mail.contact.confirmation_email_content2") %>
+<%= t("mail.contact.confirmation_email_content3") %>
+<br>
+<%= t("mail.contact.confirmation_email_content4") %>
+<br>
+<br>
+<%= t("mail.contact.content") %>
+<br>
+<%= "-------------------------------------" %>
+<br>
+<%= raw(@contact.body) %>
+<br>
+<%= "-------------------------------------" %>
+<br>
+<br>
+<%= t("mail.contact.name") %>
+<br>
+<%= @contact.user_name %>
+<br>
+<%= t("mail.contact.email") %>
+<br>
+<%= @contact.email %>
+<br>
+<%= t("mail.contact.phone") %>
+<br>
+<%= @contact.phone %>
+<br>
+<%= t("mail.contact.business_name") %>
+<br>
+<%= @contact.business_name %>
+<br>
+<%= t("mail.contact.id") %>
+<br>
+<%= @contact.id %>

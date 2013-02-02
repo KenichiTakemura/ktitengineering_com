@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%=@client.display_name%></title>
+  <%= render :partial => "layouts/common/header" %>
+</head>
+<body>
+<%= render :partial => "#{@client.namespace}/header" %>
+<%= yield %>
+<%= render :partial => "#{@client.namespace}/footer" %>
+</body>
+</html>
