@@ -1,1 +1,14 @@
-Coming soon.
+<p class="lead">Instant Web site owners. Advertise, Banner can be added on your site.</p>
+We are selling some web sites. Price starts from 500$(*). Multi-languages support is available(**).
+<br>
+SNS Plugin features are bundled by default.
+<h4 class="text-info">
+All products are fully customizalbe based on your request(***). Please feel free to contact us.
+</h4>
+<p>Conditions apply</p>
+<blockquote>
+<p class="muted"><small>(*) Price is site price. Price does not include domain name fee, hosting fees, setup fees, technical supports.</small></p>
+<p class="muted"><small>(*) You must sign up technical support contract for 6 months. Bug fixes and software upgrade are free of charge.</small></p>
+<p class="muted"><small>(**) Multi-languages support needs separate quotes per language.</small></p>
+<p class="muted"><small>(***) Customize is also available with a separate quote on each feature.</small></p>
+</blockquote>

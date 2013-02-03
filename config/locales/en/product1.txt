@@ -1,11 +1,6 @@
 - We are selling some web sites. Price starts from 500$(*). Multi-language support is available(**).
 
-  - Software Requirement: Ruby 1.8.7 later
-  - Price is site price, does not include domain name fee, hosting fees, setup feeds, technical support after purchase.
-  - Customize is also available with a separate quote on each feature.
-  - You must sign up technical support contract for 3 months. Bug fixes and software upgrade are free of charge .
-  - You are responsible for obtaining your domain name.
-  - Site is non-SSL. We recommend SSL site for your business. Ask us fo
+
 
 Current catalogue
 
@@ -17,14 +12,3 @@ Current catalogue
   - Rent and share site (http://rentshare.ozflyer.com.au)
   - People Bank site (http://people.ozflyer.com.au)
   - 
-
-Training
- 
-Are you ..
-
-- Thinking to start business?
-- Starting your business?
-- Thinking to change your business?
-- Changing your business?
-
-- 

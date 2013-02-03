@@ -35,9 +35,10 @@ Your customers use their favorite devices(like laptop, tablet, smart phone) so w
 <p><i class="icon-ok"></i>&nbsp;Customize existing Web site</p>
 <p><i class="icon-ok"></i>&nbsp;Fix issues of existing Web site</p>
 <p><i class="icon-ok"></i>&nbsp;Renovate your Web site</p>
-<p><i class="icon-ok"></i>&nbsp;Social plugin utilization(Facebook etc.) on your web site</p>
-<p><i class="icon-ok"></i>&nbsp;Web site optimization for target devices(Smart phone etc)</p>
-<p><i class="icon-ok"></i>&nbsp;Web site statistics(visitors, browsers)</p>
+<p><i class="icon-ok"></i>&nbsp;Social plugin utilization (Facebook etc.) on your web site</p>
+<p><i class="icon-ok"></i>&nbsp;Web site optimization for target devices (Smart phone, Tablet etc)</p>
+<p><i class="icon-ok"></i>&nbsp;News Letter delivery</p>
+<p><i class="icon-ok"></i>&nbsp;Web site statistics (visitors, browsers)</p>
 <p><i class="icon-ok"></i>&nbsp;Data and member Management</p>
 <p><i class="icon-ok"></i>&nbsp;Data Backup</p>
 <p><i class="icon-ok"></i>&nbsp;Web Performance assessment and improvement</p>

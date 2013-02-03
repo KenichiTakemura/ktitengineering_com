@@ -6,7 +6,9 @@
 </head>
 <body>
 <%= render :partial => "#{@client.namespace}/header" %>
+<div class="container">
 <%= yield %>
+</div>
 <%= render :partial => "#{@client.namespace}/footer" %>
 </body>
 </html>

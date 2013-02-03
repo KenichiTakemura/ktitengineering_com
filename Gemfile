@@ -13,7 +13,6 @@ gem 'json'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer'
   gem 'execjs'
   gem 'uglifier', '>= 1.0.3'
@@ -55,3 +54,5 @@ gem "system_timer"
 gem 'gretel'
 gem 'paperclip', '~> 2.7'
 gem 'remotipart'
+gem 'webcom', '0.0.1', :path => 'vendor/gems/webcom'
+gem 'http_accept_language'

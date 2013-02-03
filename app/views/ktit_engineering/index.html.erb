@@ -3,7 +3,8 @@
 <% if @space.present? %>
 <div class="main box_round">
 	<div class="page-header">
-		<h1 class="">&nbsp;<%= @space.flyer_text%></h1>
+		<h1 class="visible-desktop">&nbsp;<%= @space.flyer_text%></h1>
+		<h3 class="visible-phone">&nbsp;<%= @space.flyer_text%></h3>
 		<!-- %= image_tag(@space.image.last.original_image, :class => "image-resize140_120 page-header-img")% -->
 	</div>
 
@@ -16,40 +17,26 @@
 								<ul class="thumbnails box_round">
 									<% Style.get_services.each do |s| %>
 									<% service = Style.get_service(locale, s)%>
-									<li class="service span12" id="service-<%= service[:id]%>" style="margin-left:10px">
+									<li class="service" id="service-<%= service[:id]%>" style="">
 										<div class="thumbnail " id="service-view-<%= service[:id]%>">
-											<h3><i class="<%= service[:icon]%>"></i><%= service[:headline] %>
-												<span class="service-view-more" id="service-view-more-<%= service[:id]%>" style="display:none">
-												<i class="icon-play"></i>
-											</span>
+											<h3><i class="<%= service[:icon]%>"></i>&nbsp;<%= service[:headline] %>
 											</h3>
 											<p class="lead">
 												<%= service[:leadline] %>
 											</p>
-											<p class="service-view-more" id="service-view-more-<%= service[:id]%>" style="display:none">
-												<i class="icon-play icon-3x"></i>
-											</p>
 											<%= _script(%Q|
 											$('\#service-view-#{service[:id]}').click(function(){
-												$('\#service-view-more-#{service[:id]}').html('<i class="icon-pause"></i>');
 												$('\#contact-form-#{service[:id]}').html('');
 												$('\#service-content-#{service[:id]}').fadeIn('slow');
 												$('\#service-desc-#{service[:id]}').attr('style','margin-left:15px;margin-right:auto;visibility:visible');
 												$('\#service-content-#{service[:id]}').html('#{escape_javascript('<i class="icon-spinner icon-spin icon-3x"></i>')}');
 												#{Ajax::post(%Q|services/view?id=#{service[:id]}|,"")}
 											});
-											$('\#service-view-#{service[:id]}').mouseenter(function(){
-												$('.service-view-more').each(function() {
-													$(this).fadeOut("slow");
-												});
-												$('\#service-view-more-#{service[:id]}').html('<i class="icon-play"></i>');
-												$('\#service-view-more-#{service[:id]}').fadeIn("slow");
-											});
 
 											|)%>
 										</div>
 									</li>
-									<li class="span12 service service-content-<%= service[:id]%> box_round" id="service-desc-<%= service[:id]%>" style="margin:0;visibility:hidden">
+									<li class="service-content-<%= service[:id]%> box_round" id="service-desc-<%= service[:id]%>" style="margin:0;visibility:hidden">
 										<div class="service-content" id="service-content-<%= service[:id]%>" style="display:none"></div>
 									</li>
 									<% end %>

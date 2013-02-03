@@ -1,9 +1,10 @@
 #!/bin/bash
 PROJECT="ktitengineering_com"
 DATE=`date +%Y%m%d%H%M`
-rm -rf vendor/gems
-mkdir -p vendor/gems
-cp -pr ../../gems/webcom vendor/gems
+#rm -rf vendor/gems
+#mkdir -p vendor/gems
+#cp -pr ../../gems/webcom vendor/gems
+./precompile.rb
 tar jcvfh ./release/${PROJECT}_$DATE.tar.bz2\
  app/controllers\
  app/helpers\
@@ -25,6 +26,7 @@ tar jcvfh ./release/${PROJECT}_$DATE.tar.bz2\
  lib\
  public/*html\
  vendor/gems\
+ public/assets\
  public/favicon.ico\
  public/robots.txt
 mv public/assets public/x_assets 2> /dev/null

@@ -107,9 +107,9 @@ ActiveRecord::Schema.define(:version => 20130103042427) do
 
   create_table "images", :force => true do |t|
     t.boolean  "is_deleted",                              :default => false
-    t.datetime "avatar_updated_at"
     t.string   "avatar_file_name"
     t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
     t.string   "avatar_content_type"
     t.string   "medium_size"
     t.string   "thumb_size"
@@ -138,9 +138,9 @@ ActiveRecord::Schema.define(:version => 20130103042427) do
 
   create_table "logos", :force => true do |t|
     t.boolean  "is_deleted",          :default => false
-    t.datetime "avatar_updated_at"
     t.string   "avatar_file_name"
     t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
     t.string   "avatar_content_type"
     t.string   "medium_size"
     t.string   "thumb_size"

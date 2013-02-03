@@ -89,4 +89,6 @@ KtitengineeringCom::Application.configure do
     :sender_address => %{"K.T. IT Engineering" <contact@ktitengineering.com>},
     :exception_recipients => %w{kenichi_takemura1976@yahoo.com}
 
+  config.my_host = "108.174.147.28"
+
 end

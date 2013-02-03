@@ -39,12 +39,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .service {
-  padding: 5px;
-  margin-left:0px
 }
 
 .service-content {
-  padding: 5px;
+  padding: 10px;
 }
 
 .contact-form {
@@ -94,7 +92,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .nav-color {
-  background: url("images/black_paper.png") repeat scroll 0% 0%
+  /* background: url("images/black_paper.png") repeat scroll 0% 0% */
 }
 
 .navbar .brand {

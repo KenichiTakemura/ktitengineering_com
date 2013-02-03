@@ -50,4 +50,7 @@ KtitengineeringCom::Application.configure do
   # Disable assets log
   config.assets.logger = false
   
+  config.my_host = "127.0.0.1"
+  
+  config.available_language = %w{en ko ja}
 end

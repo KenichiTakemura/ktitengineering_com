@@ -19,9 +19,9 @@ ktitengineering = Client.new
 ktitengineering.display_name = "K.T. IT Engineering"
 ktitengineering.namespace = "ktit_engineering"
 ktitengineering.template = "engineerings"
-ktitengineering.access_key = Utils.unique_token
+ktitengineering.access_key = Webcom::Utils.unique_token
 ktitengineering.modelname = "KtitEngineering"
-ktitengineering.access_key_update = DateUtil.current_time.to_i
+ktitengineering.access_key_update = Webcom::DateUtil.current_time.to_i
 ktitengineering.business_copy = "For all small and personal Business"
 ktitengineering.business_abn = "78631933118"
 ktitengineering.save

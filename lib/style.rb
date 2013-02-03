@@ -4,7 +4,7 @@ module Style
     [:webenginnering, :itconsulting, :solution, :product]
   end
 
-  SERVICES = Utils.new_orderd_hash
+  SERVICES = Webcom::Utils.new_orderd_hash
   SERVICES[:en] = {
       :webenginnering => 
     { :id => "webenginnering",
@@ -38,5 +38,10 @@ module Style
 
   def self.get_service(lang, service)
     SERVICES[lang][service]
+  end
+  
+  def self.get_service_content(lang, service)
+    return Cms.service_content(service, lang) if Rails.env == "development"
+    SERVICES[lang][service][:content]
   end
 end
