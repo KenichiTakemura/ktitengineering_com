@@ -90,5 +90,7 @@ KtitengineeringCom::Application.configure do
     :exception_recipients => %w{kenichi_takemura1976@yahoo.com}
 
   config.my_host = "108.174.147.28"
+  
+  config.available_language = %w{en ko ja}
 
 end

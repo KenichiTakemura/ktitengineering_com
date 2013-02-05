@@ -8,7 +8,7 @@ if __FILE__ == $0
   response = http.get("/counters/batch")
   case response
     when Net::HTTPSuccess
-      puts "Counter batch total #{response.body}"
+      puts "Counter batch #{response.body}"
     else
       puts "#{response.body}"
     end

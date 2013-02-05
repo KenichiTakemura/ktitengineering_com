@@ -1,5 +1,5 @@
 <%= raw @service_content %> 
-<%= link_to_with_icon_remote(t("contact.us"), lodge_contacts_path(:id => @service_id), "btn btn-primary", "", "icon-envelope-alt", "service-contactus-#{@service_id}", "post")%>
+<%= link_to_with_icon_remote(t("contact.us"), lodge_contacts_path(:id => @service_id, :locale => I18n.locale), "btn btn-primary", "", "icon-envelope-alt", "service-contactus-#{@service_id}", "post")%>
 <%= _script(%Q|
 	$('\#service-contactus-#{@service_id}').click(function(){
 		$('.contact-form').fadeIn("show");

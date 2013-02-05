@@ -15,5 +15,13 @@ module Cms
       t.close
       html.html_safe
     end
+    
+    def self.flyer_text(lang)
+      html = ""
+      t = File.open("#{Rails.root}/config/locales/#{lang}/flyer.txt", "r:utf-8")
+      html = t.read
+      t.close
+      html.html_safe
+    end
   
 end

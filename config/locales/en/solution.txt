@@ -1,7 +1,8 @@
-<p class="lead">
+<p class=""><strong>
 Larger IT compaies work on IT for large companies, but who works on small companies' IT?
-<br>Of course We do.
-</p>
+<br>
+Of course We do. 
+</strong></p>
 <h5>
 Our engineers are well-experienced in Enterprise IT and open source communities. We know how to build your dream within a budget.
 </h5>
@@ -17,7 +18,7 @@ We are committed to support all small business owners. You want to be just profe
 <strong>
 <ul>
 <li><i class="icon-check"></i>&nbsp;Start you business</li>
-<li><i class="icon-check"></i>&nbsp;Change happends in your business</li>
+<li><i class="icon-check"></i>&nbsp;Change is about to happen in your business</li>
 <li><i class="icon-check"></i>&nbsp;Improve your business</li>
 <li><i class="icon-check"></i>&nbsp;Invest in your business</li>
 <li><i class="icon-check"></i>&nbsp;Just more funs in your business</li>

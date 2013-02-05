@@ -1,0 +1,26 @@
+<p class=""><strong>
+我々は、個人の中小企業のお客様をターゲットに、IT活用を支援します。
+</strong></p>
+<h5>
+ビジネスオーナーは多忙で、IT投資効果まで考える時間と余裕がありません。
+お客様がビジネスのプロであり、我々はITのプロです。
+</h5>
+<h5>
+我々のスタッフは、経験豊富な現役の技術者です。
+大企業向けITの知識と経験、さらにはオープンソース（無償）の活用で、お客様のビジネスゴールを、かぎりなく安く実現します。
+</h5>
+<h4>
+<span class="text-success">個人、法人を問いません。今すぐ、お問い合わせください。</span>
+</h4>
+<strong>
+<ul>
+<li><i class="icon-check"></i>&nbsp;ビジネスを始めるとき</li>
+<li><i class="icon-check"></i>&nbsp;ビジネスが変わるとき</li>
+<li><i class="icon-check"></i>&nbsp;ビジネスに改善を求めるとき</li>
+<li><i class="icon-check"></i>&nbsp;ビジネスに投資したいとき</li>
+<li><i class="icon-check"></i>&nbsp;もっとビジネスを楽しくしたいとき</li>
+</ul>
+</strong>
+<h4 class="text-info">
+お客様のビジネスにとって最適なオプションを展開します。
+</h4>

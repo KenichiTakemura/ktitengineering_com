@@ -1,7 +1,12 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  before_filter :hit, :preferred_locale
+  before_filter :hit, :preferred_locale, :set_locale
   rescue_from Webcom::Exceptions::NotFoundError, :with => :record_not_found
+
+  def set_locale
+    I18n.locale = params[:locale] || I18n.default_locale
+  end
+
   def hit
     key = Webcom::DateUtil.today
     return if request.remote_ip.eql?(KtitengineeringCom::Application.config.my_host)
@@ -18,11 +23,7 @@ class ApplicationController < ActionController::Base
     user_locale = request.preferred_language_from(KtitengineeringCom::Application.config.available_language)
     logger.info("user_locale : #{user_locale}")
     if user_locale.present?
-      if params[:locale]
-        params[:locale] = user_locale
-      else
-        I18n.locale = user_locale
-      end
+      params[:locale] = params[:locale].presence || user_locale
     end
   end
   

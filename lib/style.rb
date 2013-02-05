@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 module Style
 
   def self.get_services
@@ -36,6 +37,38 @@ module Style
     }
   }     
 
+  SERVICES[:ja] = {
+      :webenginnering => 
+    { :id => "webenginnering",
+      :headline => "WEBエンジニアリング",
+      :leadline => "すべてのビジネス、個人起業家にWEBを。WEBエンジニアリングでビジネスをもっと簡単に始める、変える。ビジネスは進化する。",
+      :content => Cms.service_content(:webenginnering, :ja),
+      :icon => "icon-globe"
+    },
+      :itconsulting => 
+    { :id => "itconsulting",
+      :headline => "IT コンサルティング",
+      :leadline => "あなたのビジネスIT活用に関するすべての疑問、問題に答えます。",
+      :content => Cms.service_content(:itconsulting, :ja),
+      :icon => "icon-group"
+    },
+      :solution =>
+    { :id => "solution",
+      :headline => "個人、中小企業向けITソリューションプロバイダー",
+      :leadline => "個人、中小企業のIT活用に、よりハイレベルなエンタープライズソリューションを実現します。",
+      :content => Cms.service_content(:solution, :ja),
+      :icon => "icon-lightbulb"
+    },
+      :product =>
+    { :id => "product",
+      :headline => "個人向けビジネススタートキットの販売。",
+      :leadline => "ビジネスオーナーになりたい夢をサポートします。思い立ったが今が、始めるときです。",
+      :content => Cms.service_content(:product, :ja),
+      :icon => "icon-film"
+    }
+  }     
+
+
   def self.get_service(lang, service)
     SERVICES[lang][service]
   end
@@ -43,5 +76,9 @@ module Style
   def self.get_service_content(lang, service)
     return Cms.service_content(service, lang) if Rails.env == "development"
     SERVICES[lang][service][:content]
+  end
+  
+  def self.get_flyer_text(lang)
+    return Cms.flyer_text(lang) if Rails.env == "development"
   end
 end

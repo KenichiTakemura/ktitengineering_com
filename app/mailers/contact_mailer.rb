@@ -25,14 +25,15 @@ class ContactMailer < ActionMailer::Base
     if @@is_debug
       to = @@admin_email
     end
-    logger.info("email is besing sent to #{to}")
-    subject = "#{I18n.t("mail.flyer.subject")} "
-    @subject = "#{t("contact.thankyou")}"
-    #subject += @subject
-    subject += t("mail.contact.confirmation_email")
-    @contact = contact
-    mail(:to => to,
+    logger.info("email is besing sent to #{to} with #{I18n.locale}")
+    I18n.with_locale(I18n.locale) do 
+      subject = "#{I18n.t("mail.flyer.subject")} "
+      @subject = "#{t("contact.thankyou")}"
+      subject += t("mail.contact.confirmation_email")
+      @contact = contact
+      mail(:to => to,
          :subject => subject)
+     end
   end
 
 

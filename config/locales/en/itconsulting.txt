@@ -1,8 +1,8 @@
-<p class="lead">
+<p class=""><strong>
 When it comes to your business and IT, what investment with IT does produce best profit in your business?
 <br>
 Depending on the scale of your business we propose the best and cost-effective solution for your business to win.
-</p>
+</strong></p>
 <h5>
 <i class="icon-plane icon-border"></i>&nbsp;Just tell us what your problems are, we are happy to come to hear from you.
 </h5>

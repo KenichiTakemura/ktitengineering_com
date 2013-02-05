@@ -10,20 +10,22 @@
 	<h3><%= t("contact.us")%></h3>
 	<h5><%= t("contact.please_fillin")%></h5>
 </div>
-<%= form_for(@contact, :remote => true, :html => { :class => "form-horizontal"}) do |f| %>
+<%= form_for(@contact, :remote => true, :html => { :class => ""}) do |f| %>
 <%= f.hidden_field :contact_type %>
 <%= contact_form_error_messages!(@contact) %>
 <div class="control-group">
 <%= f.label :user_name, t("contact.user_name"), :class => "control-label" %>
 <div class="controls">
-<%= f.text_field :user_name, :class => "input-medium" %>
+<div class="input-prepend">
+	<span class="add-on"><i class="icon-user"></i></span><%= f.text_field :user_name, :class => "input-large" %>
+</div>
 </div>
 </div>
 <div class="control-group">
 <%= f.label :email, t("contact.email"), :class => "control-label" %>
 <div class="controls">
 <div class="input-prepend">
-	<span class="add-on"><i class="icon-envelope"></i></span><%= f.email_field :email, :class => "input-medium" %>
+	<span class="add-on"><i class="icon-envelope"></i></span><%= f.email_field :email, :class => "input-large" %>
 </div>
 <span class="help-block">
 	<p class="text-success">
@@ -35,7 +37,7 @@
 <%= f.label :phone, t("contact.phone"), :class => "control-label" %>
 <div class="controls">
 <div class="input-prepend">
-	<span class="add-on"><i class="icon-phone"></i></span><%= f.telephone_field :phone, :class => "input-medium" %>
+	<span class="add-on"><i class="icon-phone"></i></span><%= f.telephone_field :phone, :class => "input-large" %>
 </div>
 </div>
 </div>
@@ -43,7 +45,7 @@
 <%= f.label :business_name, t("contact.business_name"), :class => "control-label" %>
 <div class="controls">
 <div class="input-prepend">
-	<span class="add-on"><i class="icon-building"></i></span><%= f.text_field :business_name, :class => "input-medium" %>
+	<span class="add-on"><i class="icon-building"></i></span><%= f.text_field :business_name, :class => "input-large" %>
 </div>
 </div>
 </div>

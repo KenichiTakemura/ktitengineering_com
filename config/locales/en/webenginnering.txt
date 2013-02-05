@@ -1,6 +1,6 @@
-<p class="lead">
+<p class=""><strong>
 Our service with Web Engineering changes your business and make your business win in your target the markets.
-</p>
+</strong></p>
 <dl>
 <dt>Web is dynamic
 &nbsp;<i class="icon-cloud"></i></dt>

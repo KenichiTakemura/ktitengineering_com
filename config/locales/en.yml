@@ -4,21 +4,13 @@
 en:
   lang:
     en: "English"
-    jp: "Japanese"
+    ja: "Japanese"
     ko: "Korean"
-  op:
-    more: "More"
-    about_us: "About US"
-  ktit:
-    flyer_text: ""
-    head_text: ""
-    lead_text: ""
-    service:
-      first:
-        headline: "Web Engineering"
-        leadline: ""
+  header:
+    business_copy: "For all small and personal business"
   contact:
     us: "Contact US"
+    about_us: "About US"
     please_fillin: "Thank you for filling in the form. We understand English, Japanese and Korean."
     user_name: "Name"
     email: "Email Address"
@@ -29,21 +21,15 @@ en:
     describe_detail: "Please write with details"
     submit: "Send"
     confirm_submit: "Are you sure to send?"
-    confirm_action: "Confirmation"
-    cancel: "Cancel"
-    received: "Received a contact"
     thankyou: "Thank you very much for your contact."
     after: "You will receive a confirmation email from us."
-    inquiry: "Should you have any questions, you can directly contact us on contact@kitiengineering.com or 0433654800"
+    inquiry: "Should you have any questions, you can reply to the confirmation email or call us on 0433654800"
   mail:
     mail_from: "K.T. IT Engineering"
     admin:
       subject: "[K.T IT Engineering]"
     flyer:
       subject: "[K.T IT Engineering]"
-    post:
-      id: "ID"
-      category: "Category"
     contact:
       id: "Contact ID"
       name: "Name"

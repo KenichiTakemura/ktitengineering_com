@@ -1,18 +1,18 @@
 <div class="navbar navbar-inverse">
 	<div class="navbar-inner nav-color">
 		<div class="container">
-			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-			<a class="brand" href="<%= root_path%>"><%= image_tag(@client.logo?, :class => "img-rounded") %>&nbsp;&nbsp;&nbsp;
-			<i class="icon-quote-left"></i><%= @client.business_copy %><i class="icon-quote-right"></i></a>
-
-				<!--
-				<li>
-				<%= link_to_with_icon(t("lang.jp"), root_path(:locale => "ja"), "", "", "icon-flag","")%>
-				</li>
-				<li>
-				<%= link_to_with_icon(t("lang.ko"), root_path(:locale => "ko"), "", "", "icon-flag","")%>
-				</li>
-				-->
+			<a class="brand" href="<%= root_path%>"><%= image_tag(@client.logo?, :class => "img-rounded") %>&nbsp;&nbsp;&nbsp; <i class="icon-quote-left icon-large muted"></i>&nbsp; <%= t("header.business_copy") %>&nbsp; <i class="icon-quote-right icon-large muted"></i></a>
+			<ul class="nav pull-right">
+				<% KtitengineeringCom::Application.config.available_language.each do |language| %>
+					<% if I18n.locale == language %>
+					<li class="active">
+					<% else %>
+					<li>
+					<% end %>
+					<%= link_to_with_icon(t("lang.#{language}"), root_path(:locale => "#{language}"), "", "", "icon-flag","")%>
+					</li>
+				<% end %>
+			</ul>
 		</div>
 	</div>
 </div>
