@@ -47,7 +47,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: 10px;
 }
 
-.contact-form {
+.contact-form-desktop {
   padding: 10px;
   background: url("images/grunge_wall.png") repeat scroll 0% 0%
 }

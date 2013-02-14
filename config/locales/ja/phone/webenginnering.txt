@@ -1,0 +1,93 @@
+
+<p class=""><strong>
+WEBエンジニアリングでビジネスはもっと簡単に、スピーディに、高品質に、管理しやいものになります。
+<br>
+お客様のビジネスがターゲット市場で勝つために、WEBエンジニアリングは必要です。
+</strong>
+</p>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>変化のあるWEBサイトを&nbsp;<i class="icon-cloud"></i></h3>
+<p>
+WEBサイトには変化が必要です。
+<br>
+WEBサイト訪問者は常に新しい情報を期待しています。
+ビジネスの変化に応じて、お客様が第一に見る、WEBサイトでの情報更新は必須です。
+WEBサイトにもっと簡単に、ビジネスの現場から最新の情報を掲載する手段を提供します。
+</p>
+</div>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>目的のあるWEBサイトを&nbsp;<i class="icon-trophy"></i></h3>
+<p>
+WEBサイトには目的が必要です。
+<br>
+ユーザーは目的を持って、お客様のWEBサイトを訪問します。
+<br>
+WEBサイトの目的とビジネスゴールを同期させることは、長期にビジネスを展開していく上で必須です。
+</p>
+
+</div>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>WEBサイトにオーナーを&nbsp;<i class="icon-user-md"></i></h3>
+
+<p>
+WEBサイトはビジネスと同様にオーナーが必要です。
+<br>
+WEBサイトのオーナーにより、WEBサイトは定期的に更新され、ビジネスと同期できます。
+ただし、WEBサイトのオーナーは、必ずしもビジネスオーナーとは限りません。
+WEBサイトのオーナーが使いやすい、ある程度自動化され（手間を簡略化）WEBサイトを構築することがビジネスオーナーの責任です。
+</p>
+
+</div>
+
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>WEBサイトにターゲットを<br><i class="icon-desktop"></i>&nbsp;<i class="icon-laptop"></i>&nbsp;<i class="icon-tablet"></i>&nbsp;<i class="icon-mobile-phone"></i></h3>
+
+<p>
+ビジネスの市場を絞ることは、WEBサイト運営にも当てはまります。
+<br>
+多くのユーザーがスマートフォンやタブレットを使用します。スマートフォン、タブレットへの対応は、WEBサイト開発では当たり前となってきました。
+しかし、依然PCユーザーも存在します。既存WEBサイトの運営、新規WEBサイトの立ち上げの両方で、あらゆるデバイスに対応するは、時間とコストが
+難しい場合があります。そのため、お客様のターゲットとなるユーザーの使用デバイスに合わせた、WEBサイトの運営が必要です。またローコストであらゆるデバイスに
+対応することも可能です。
+
+</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="b">
+<h3>我々が提供するサービス</h3>
+<table class="table">
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトの製作</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトの保守</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>既存WEBサイトへの機能追加</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>既存WEBサイトの問題修正</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>既存WEBサイトのリフォーム</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイト間の連携</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトと他システムとの連携</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>Facebook等のSNS機能の盛り込み</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイト認証</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトのスマートフォン、タブレット最適化</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>ニュースレターなどの配信</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトへのバナー、広告の掲載</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>統計データ（ビュー、訪問数）の収集</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>データ、ユーザー管理</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>データバックアップ</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトのパフォーマンス向上</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>ホスティング評価</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトのセキュリティ向上</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>WEBサイトの脆弱性の評価、レポートの発行、修正</td></tr>
+<tr><td><i class="icon-ok pull-right"></i></td><td>さらに...（これに限っているわけではありません）</td></tr>
+</table>
+
+</div>
+
+<h4 class="text-info">
+お気軽にお問い合わせください。
+<br>
+打ち合わせ、フリーディスカッションはいつでも歓迎です。
+<br>
+お見積もりは無料です。
+</h4>

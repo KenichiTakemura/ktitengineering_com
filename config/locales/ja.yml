@@ -203,8 +203,14 @@ ja:
     en: "英語"
     ja: "日本語"
     ko: "韓国語"
+  loading: "ロード中です・・・"
+  op:
+    back: "戻る"
   header:
     business_copy: "すべてのビジネスパーソンをITで支える"
+  form:
+    error: "エラー"
+    complete: "完了"
   contact:
     us: "問い合わせ"
     about_us: "会社プロフィール"
@@ -218,6 +224,7 @@ ja:
     describe_detail: "可能な限り詳細に記載してください。"
     submit: "送信する"
     confirm_submit: "よろしいですか？"
+    confirm: "確認"
     thankyou: "この度はお問い合わせ大変ありがとうございます。"
     after: "入力されたメールアドレスに問い合わせの確認メールを送信しました。"
     inquiry: "質問がございましたら、確認メールに返信、または電話 0433654800 にて直接問い合わせができます。"

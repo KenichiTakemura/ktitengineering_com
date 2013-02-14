@@ -9,10 +9,11 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require bootstrap
  *= require cross_browser_css3
  *= require image
  *= require ktitengineering
- *= require font-awesome
+ *= require font-awesome.min
+ *= require font-awesome-ie7.min
  *= require animation
+ *= require mobile
  */

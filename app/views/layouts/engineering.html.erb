@@ -3,6 +3,11 @@
 <head>
   <title><%=@client.display_name%></title>
   <%= render :partial => "layouts/common/header" %>
+  <%= stylesheet_link_tag "bootstrap", :media => "all" %>
+  <%= javascript_include_tag "bootstrap" %>
+  <%= stylesheet_link_tag "jquery.mobile.theme-1.2.0.min", :media => "all" %>
+  <%= stylesheet_link_tag "jquery.mobile.structure-1.2.0.min", :media => "all" %>
+  <%= javascript_include_tag "jquery.mobile-1.2.0.min" %>
 </head>
 <body>
 <%= render :partial => "#{@client.namespace}/header" %>

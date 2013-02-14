@@ -8,7 +8,7 @@ Depending on the scale of your business we propose the best and cost-effective s
 </h5>
 <h5>
 <i class="icon-beer icon-border"></i>&nbsp;We love crazy ideas. Who knows who will build next Facebook or Twitter. 
-</p>
+</h5>
 <h5>
 <i class="icon-thumbs-up icon-border"></i>&nbsp;We are happy to face anything. We win when you win.
 </h5>

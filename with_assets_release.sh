@@ -29,4 +29,6 @@ tar jcvfh ./release/${PROJECT}_$DATE.tar.bz2\
  public/assets\
  public/favicon.ico\
  public/robots.txt
+rm -rf public/x_assets
 mv public/assets public/x_assets 2> /dev/null
+./scp_latest.sh

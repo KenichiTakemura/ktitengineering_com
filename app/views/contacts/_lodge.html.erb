@@ -10,7 +10,7 @@
 	<h3><%= t("contact.us")%></h3>
 	<h5><%= t("contact.please_fillin")%></h5>
 </div>
-<%= form_for(@contact, :remote => true, :html => { :class => ""}) do |f| %>
+<%= form_for(@contact, :url => {:action => "create" ,:locale => I18n.locale}, :remote => true, :html => { :class => "", :data => {:ajax => "false" }}) do |f| %>
 <%= f.hidden_field :contact_type %>
 <%= contact_form_error_messages!(@contact) %>
 <div class="control-group">
@@ -61,7 +61,7 @@
 </div>
 <div class="control-group">
 	<div class="controls">
-	<%= f.submit t("contact.submit"), :class => "btn btn-primary", :id => "contact-submit", :data => { :confirm => t('contact.confirm_submit')} %>
+	<%= f.submit t("contact.submit"), :class => "btn btn-primary", :id => "contact-submit-confirm", :data => { :confirm => t('contact.confirm_submit')} %>
 </div>
 </div>
 <div class="contact-result"></div>

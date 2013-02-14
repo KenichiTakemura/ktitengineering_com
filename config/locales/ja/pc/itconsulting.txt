@@ -6,7 +6,7 @@
 </h5>
 <h5>
 <i class="icon-beer icon-border"></i>&nbsp;他人が無視するどんな些細なアイデアからでもビジネスは発展します。ビジネスオーナーの意見を大事にします。
-</p>
+</h5>
 <h5>
 <i class="icon-thumbs-up icon-border"></i>&nbsp;我々はいかなる問題、困難にも耳を傾け、リサーチを実施、ITで対策できる可能性を追求します。
 </h5>

@@ -1,0 +1,9 @@
+$.mobile.loading( 'hide');
+<% if @contact.errors.present? %>
+$(".popup-notice-header").html("<%=t("form.error")%>");
+$(".popup-notice-content").html("<%=mobile_contact_form_error_messages!(@contact)%>");
+<% else %>
+$(".popup-notice-header").html("<%=t("form.complete")%>");
+$(".popup-notice-content").html("<%=notice.html_safe%>");
+<% end %>
+$("\#popup-notice").popup('open')

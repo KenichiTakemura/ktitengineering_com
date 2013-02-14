@@ -1,6 +1,8 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+  
   before_filter :hit, :preferred_locale, :set_locale
+
   rescue_from Webcom::Exceptions::NotFoundError, :with => :record_not_found
 
   def set_locale
@@ -8,14 +10,21 @@ class ApplicationController < ActionController::Base
   end
 
   def hit
-    key = Webcom::DateUtil.today
-    return if request.remote_ip.eql?(KtitengineeringCom::Application.config.my_host)
-    unless session[key.to_sym]
-      daily_hit = Rails.cache.read(:daily_hit).presence || 0
-      Rails.cache.write(:daily_hit, daily_hit + 1);
-      session[key.to_sym] = true
+    if !request.remote_ip.eql?(KtitengineeringCom::Application.config.my_host)
+      key = Webcom::DateUtil.today
+      unless session[key.to_sym]
+        daily_hit = Rails.cache.read(:daily_hit).presence || 0
+        remoteip_list = Rails.cache.read(:remoteip_list).presence || Hash.new
+        Rails.cache.write(:daily_hit, daily_hit + 1);
+        ipcount = remoteip_list[request.remote_ip.to_sym] || 0
+        remoteip_list[request.remote_ip.to_sym] = (ipcount + 1)
+        Rails.cache.write(:remoteip_list, remoteip_list);
+        session[key.to_sym] = true
+      end
+      Rails.logger.debug("daily_hit: #{Rails.cache.read(:daily_hit)}")
+      Rails.logger.debug("remoteip_list: #{Rails.cache.read(:remoteip_list)}")
     end
-    Rails.logger.debug("daily_hit: #{Rails.cache.read(:daily_hit)}")
+
   end
   
   def preferred_locale
@@ -26,6 +35,7 @@ class ApplicationController < ActionController::Base
       params[:locale] = params[:locale].presence || user_locale
     end
   end
+
   
   protected
   

@@ -1,0 +1,7 @@
+<!-- FOOTER -->
+<footer>
+	<p>
+		<%= image_tag("footer-logo_phone.png", :class => "image-resize100_80")%>&nbsp;&copy; K.T. IT Engineering 2013 ABN: 78631933118  Phone: 0433654800 &middot;
+		<%= link_to_with_icon(t("contact.us"), new_contact_path(:id => "general", :locale => "#{I18n.locale}", :device => :phone), "", "", "icon-envelope-alt", "footer-contactus")%> &middot; <a href="#about" id="to_about"><%= t("contact.about_us")%></a>
+	</p>
+</footer>

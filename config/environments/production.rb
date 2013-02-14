@@ -91,6 +91,6 @@ KtitengineeringCom::Application.configure do
 
   config.my_host = "108.174.147.28"
   
-  config.available_language = %w{en ko ja}
+  config.available_language = %w{en ja}
 
 end

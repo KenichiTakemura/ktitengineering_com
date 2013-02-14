@@ -1,0 +1,84 @@
+<!-- Top -->
+<% locale = I18n.locale.to_sym%>
+
+<% if @space.present? %>
+<div class="" data-role="page" data-theme="c" id="main">
+	<div class="" data-role="header"  >
+		<div class="ui-grid-a">
+			<div class="ui-block-a">
+			<%= image_tag("ktit_logo_phone.png", :class => "") %></div>
+			<div class="ui-block-b">
+		<%= t("header.business_copy") %>
+
+		</div>
+				</div>
+		<div data-role="navbar">
+			<ul>
+				<% KtitengineeringCom::Application.config.available_language.each do |language| %>
+				<li>
+					<%= link_to_with_icon(t("lang.#{language}"), "#", "", "", "icon-flag","lang-#{language}")%>
+				</li>
+				<%= _document_on("click","\#lang-#{language}",%Q|function(){
+				$.mobile.loading( 'show', {
+				text: '#{t("loading")}',
+				textVisible: true,
+				theme: 'c',
+				html: ""
+				});
+				document.location.href="#{smart_path(:locale => "#{language}")}"
+				}
+				|) %>
+				<% end %>
+			</ul>
+		</div><!-- /navbar -->
+
+
+	</div>
+
+	<div class="" data-role="content">
+		<h2><%= Style.get_flyer_text(locale) %></h2>
+		<ul data-role="listview" data-inset="false" data-filter="false">
+
+			<% Style.get_services.each do |s| %>
+			<% service = Style.get_service(locale, s)%>
+			<li>
+				<a href="#page-<%= service[:id]%>"><i class="<%= service[:icon]%>"></i>&nbsp;<%= service[:headline] %></a>
+			</li>
+			<% end %>
+		</ul>
+
+	</div>
+
+	<div data-role="footer">
+		<%= render :partial => "#{@client.namespace}/smarts/footer" %>
+	</div>
+
+</div>
+<% Style.get_services.each do |s| %>
+<% service = Style.get_service(locale, s)%>
+<div class="" data-role="page" data-theme="a" id="page-<%= service[:id]%>">
+	<div class="" data-role="header"><%= service[:leadline] %></div>
+	<div class="" data-role="content">
+		<%= raw Style.get_service_content(locale, s, :phone) %>
+		<%= link_to_with_icon(t("contact.us"), new_contact_path(:id => service[:id], :locale => I18n.locale, :device => :phone), "button", "", "icon-envelope-alt", "service-contactus-#{service[:id]}")%>
+	</div>
+
+	<div data-role="footer">
+		<a href="#main"　data-role="button"><%= t("op.back")%></a>
+	</div>
+</div>
+
+<% end %>
+
+<div class="" data-role="page" data-theme="c" id="about">
+	<div class="" data-role="header"><%= t("contact.about_us")%></div>
+	<div class="" data-role="content">
+			<%= raw(Style.get_about(I18n.locale, :phone))%>
+	</div>
+
+	<div data-role="footer">
+		<a href="#main"　data-role="button"><%= t("op.back")%></a>
+	</div>
+
+</div>
+<% end %>

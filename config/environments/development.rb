@@ -42,8 +42,7 @@ KtitengineeringCom::Application.configure do
     :address              => "localhost",
     :enable_starttls_auto => true  }
   config.contact_mailer = {
-    #:admin_email => "kenichi_takemura1976@yahoo.com",
-    :admin_email => "ktakemur@redhat.com",
+    :admin_email => "kenichi_takemura1976@yahoo.com",
     :admin_email_locale => "en",
     :is_debug => true
   }

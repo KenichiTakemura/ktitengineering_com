@@ -1,0 +1,12 @@
+<div class="page-header">
+    <h1>我々は新しいITエンジニアの会社です。</h1>
+    <div class="description">
+	    <p>K.T. IT Engineering はお客様のビジネスのベストITパートナーを目指します。</p>
+	</div>
+</div>
+<p class=""><strong>コミットメント</strong></p>
+<p class="description">お客様はビジネスの運営にのみ専念する、我々はITに専念する。</p>
+<p class="lead"><strong>ゴール</strong></p>
+<p class="description">お客様のビジネスが成功するときが、我々が成功するときです。</p>
+<p class="lead"><strong>スタッフ</strong></p>
+<p class="description">我々のエンジニアは、全員現役、プロフェッショナル技術者です。</p>

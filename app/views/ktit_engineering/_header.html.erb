@@ -1,15 +1,26 @@
 <div class="navbar navbar-inverse">
 	<div class="navbar-inner nav-color">
 		<div class="container">
-			<a class="brand" href="<%= root_path%>"><%= image_tag(@client.logo?, :class => "img-rounded") %>&nbsp;&nbsp;&nbsp; <i class="icon-quote-left icon-large muted"></i>&nbsp; <%= t("header.business_copy") %>&nbsp; <i class="icon-quote-right icon-large muted"></i></a>
+			<a class="brand" href="<%= root_path%>"><%= image_tag(@client.logo?, :class => "img-rounded") %>&nbsp;&nbsp;&nbsp; <i class="icon-quote-left muted"></i>&nbsp; <%= t("header.business_copy") %>&nbsp; <i class="icon-quote-right muted"></i></a>
 			<ul class="nav pull-right">
 				<% KtitengineeringCom::Application.config.available_language.each do |language| %>
-					<% if I18n.locale == language %>
+					<% if I18n.locale.to_s.eql?(language) %>
 					<li class="active">
 					<% else %>
 					<li>
 					<% end %>
-					<%= link_to_with_icon(t("lang.#{language}"), root_path(:locale => "#{language}"), "", "", "icon-flag","")%>
+					<%= link_to_with_icon(t("lang.#{language}"), "#", "", "", "icon-flag","lang-#{language}")%>
+					<%= _document_on("click","\#lang-#{language}",%Q|function(){
+						$.mobile.loading( 'show', {
+							text: '#{t("loading")}',
+							textVisible: true,
+							theme: 'c',
+							html: ""
+						});
+						document.location.href="#{root_path(:locale => "#{language}")}"
+						}
+					|)
+					%>
 					</li>
 				<% end %>
 			</ul>

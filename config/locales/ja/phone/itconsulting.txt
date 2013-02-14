@@ -1,0 +1,28 @@
+<p class=""><strong>
+お客様のビジネスの大小に応じて、費用効果の高いソリューションを提供、お客様のビジネスが成功する手助けをします。
+</strong></p>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>役立つITソリューションを提案&nbsp;<i class="icon-plane"></i></h3>
+<p>
+お客様のビジネスが抱えている問題の根本原因を解決できる、役立つ、具体的かつ、経済的なITソリューションを提案します。
+</p>
+</div>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>ビジネスオーナーが主役&nbsp;<i class="icon-beer"></i></h3>
+<p>
+他人が無視するどんな些細なアイデアからでもビジネスは発展します。ビジネスオーナーの意見を大事にします。
+</p>
+</div>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>プロのリサーチ&nbsp;<i class="icon-thumbs-up"></i></h3>
+<p>
+我々はいかなる問題、困難にも耳を傾け、リサーチを実施、ITで対策できる可能性を追求します。我々はリサーチに関してもプロです。
+</p>
+</div>
+
+<h4>
+初回のコンサルティングは無料です。今すぐ、お問い合わせください。お客様のビジネスにとって最適なオプションを展開します。
+</h4>

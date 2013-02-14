@@ -3,7 +3,7 @@
 	<!-- FOOTER -->
 	<footer>
 		<p>
-			<%=image_tag("footer-logo_64.png", :class => "img-circle")%>&nbsp;&copy; K.T. IT Engineering 2013 ABN: 78631933118  Phone: 0433654800 &middot; <%= link_to_with_icon_remote(t("contact.us"), lodge_contacts_path(:id => "general"), "", "", "icon-envelope-alt", "footer-contactus", "post")%> &middot; <a href="#" id="to_about"><%= t("contact.about_us")%></a>
+			<%=image_tag("footer-logo_64.png", :class => "img-circle")%>&nbsp;&copy; K.T. IT Engineering 2013 ABN: 78631933118  Phone: 0433654800 &middot; <%= link_to_with_icon_remote(t("contact.us"), lodge_contacts_path(:id => "general", :locale => "#{I18n.locale}"), "", "", "icon-envelope-alt", "footer-contactus", "post")%> &middot; <a href="#" id="to_about"><%= t("contact.about_us")%></a>
 		</p>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.	</footer>
 <%= _script(%Q|

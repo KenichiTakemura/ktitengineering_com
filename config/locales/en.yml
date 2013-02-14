@@ -6,8 +6,14 @@ en:
     en: "English"
     ja: "Japanese"
     ko: "Korean"
+  loading: "Loading..."
+  op:
+    back: "Back"
   header:
     business_copy: "For all small and personal business"
+  form:
+    error: "Error"
+    complete: "Complete"
   contact:
     us: "Contact US"
     about_us: "About US"
@@ -20,6 +26,7 @@ en:
     content: "Content"
     describe_detail: "Please write with details"
     submit: "Send"
+    confirm: "Confirmation"
     confirm_submit: "Are you sure to send?"
     thankyou: "Thank you very much for your contact."
     after: "You will receive a confirmation email from us."
