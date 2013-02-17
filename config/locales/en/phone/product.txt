@@ -1,17 +1,28 @@
-<p class=""><strong>Instant Web site owners. Advertise, Banner can be added on your site.</strong></p>
-<h5>
-We are selling some web sites. Price starts from 500$. Multi-languages support is available.
-<br>
-SNS Plugin features are bundled by default.
-</h5>
-<h4 class="text-info">
-All products are fully customizalbe based on your request. Please feel free to contact us.
-</h4>
+<p class=""><strong>
+Instant Web site owners. We are selling some web sites.
+</strong></p>
+
+
+<ul>
+<li><i class="icon-check"></i>&nbsp;Advertise, Banner can be added on your site.</li>
+<li><i class="icon-check"></i>&nbsp;Multi-languages support is available.</li>
+<li><i class="icon-check"></i>&nbsp;SNS Plugin features are bundled by default.</li>
+<li><i class="icon-check"></i>&nbsp;Full Support.</li>
+<li><i class="icon-check"></i>&nbsp;All products are fully customizalbe based on your request.</li>
+<li><i class="icon-check"></i>&nbsp;Affordable</li>
+</ul>
+
+<p>
+Please feel free to contact us.
+</p>
+<small>
+<ul>
 <p>Conditions apply</p>
-<blockquote>
-<p class="muted"><small>Price is site unit price. Price is subject to change without prior notice. Price does not include domain name fee, hosting fees, setup fees, technical supports.</small></p>
-<p class="muted"><small>You must sign up technical support contract for 6 months. </small></p>
-<p class="muted"><small>Multi-languages support needs separate quotes per language.</small></p>
-<p class="muted"><small>Customize is also available with a separate quote on each feature.</small></p>
-<p class="muted"><small>Please contact us regarding software or hosting requirements.</small></p>
-</blockquote>
+
+<li><small>Price is site unit price. Price is subject to change without prior notice. Price does not include domain name fee, hosting fees, setup fees, technical supports.</small></li>
+<li><small>You must sign up technical support contract for 6 months. </small></li>
+<li><small>Multi-languages support needs separate quotes per language.</small></li>
+<li><small>Customize is also available with a separate quote on each feature.</small></li>
+<li><small>Please contact us regarding software or hosting requirements.</small></li>
+</ul>
+</small>

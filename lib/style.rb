@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 module Style
+  
+  VERSION = "1.0-20130215"
 
   def self.get_services
     [:webenginnering, :itconsulting, :solution, :product]
@@ -44,28 +46,28 @@ module Style
     { :id => "webenginnering",
       :headline => "WEBエンジニアリング",
       :leadline => "すべてのビジネス、個人起業家にWEBを。WEBエンジニアリングでビジネスをもっと簡単に始める、変える。ビジネスは進化する。",
-      :content => Cms.service_content(:webenginnering, :ja),
+      :content => {:pc => Cms.service_content(:webenginnering, :ja, :pc), :phone => Cms.service_content(:webenginnering, :ja, :phone)},
       :icon => "icon-globe"
     },
       :itconsulting => 
     { :id => "itconsulting",
       :headline => "IT コンサルティング",
       :leadline => "あなたのビジネスIT活用に関するすべての疑問、問題に答えます。",
-      :content => Cms.service_content(:itconsulting, :ja),
+      :content => {:pc => Cms.service_content(:itconsulting, :ja, :pc), :phone => Cms.service_content(:itconsulting, :ja, :phone)},
       :icon => "icon-group"
     },
       :solution =>
     { :id => "solution",
       :headline => "個人、中小企業向けITソリューションプロバイダー",
       :leadline => "個人、中小企業のIT活用に、よりハイレベルなエンタープライズソリューションを実現します。",
-      :content => Cms.service_content(:solution, :ja),
+      :content => {:pc => Cms.service_content(:solution, :ja, :pc), :phone => Cms.service_content(:solution, :ja, :phone)},
       :icon => "icon-lightbulb"
     },
       :product =>
     { :id => "product",
       :headline => "個人向けビジネススタートキットの販売",
       :leadline => "ビジネスオーナーになりたい夢をサポートします。思い立ったが今が、始めるときです。",
-      :content => Cms.service_content(:product, :ja),
+      :content => {:pc => Cms.service_content(:product, :ja, :pc), :phone => Cms.service_content(:product, :ja, :phone)},
       :icon => "icon-film"
     }
   }     

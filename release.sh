@@ -28,3 +28,4 @@ tar jcvfh ./release/${PROJECT}_$DATE.tar.bz2\
  public/favicon.ico\
  public/robots.txt
 mv public/assets public/x_assets 2> /dev/null
+./scp_latest.sh

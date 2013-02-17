@@ -1,4 +1,5 @@
-<%= link_to_with_icon("","#","pull-right","","icon-remove-circle icon-3x","contact-close")%>
+<%= link_to_with(t("op.close"),"#","btn btn-mini btn-primary pull-right","","contact-close")%>
+
 <%= _script(%Q|
 	$('\#contact-close').click(function(){
 	$('.contact-form').fadeOut(2000);
@@ -10,7 +11,7 @@
 	<h3><%= t("contact.us")%></h3>
 	<h5><%= t("contact.please_fillin")%></h5>
 </div>
-<%= form_for(@contact, :url => {:action => "create" ,:locale => I18n.locale}, :remote => true, :html => { :class => "", :data => {:ajax => "false" }}) do |f| %>
+<%= form_for(@contact, :url => {:action => "create" ,:locale => I18n.locale}, :remote => true, :html => { :class => "contact_form", :data => {:ajax => "false" }}) do |f| %>
 <%= f.hidden_field :contact_type %>
 <%= contact_form_error_messages!(@contact) %>
 <div class="control-group">
@@ -66,3 +67,8 @@
 </div>
 <div class="contact-result"></div>
 <% end %>
+		<%= _mobile_tap("contact-submit-confirm",%Q|
+		console.log("click");
+		$(".contact_form").submit();
+		return false;
+		|)%>

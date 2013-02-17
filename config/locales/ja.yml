@@ -206,6 +206,7 @@ ja:
   loading: "ロード中です・・・"
   op:
     back: "戻る"
+    close: "閉じる"
   header:
     business_copy: "すべてのビジネスパーソンをITで支える"
   form:

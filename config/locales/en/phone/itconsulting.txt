@@ -12,6 +12,7 @@ Depending on the scale of your business we propose the best and cost-effective s
 <h5>
 <i class="icon-thumbs-up icon-border"></i>&nbsp;We are happy to face anything. We win when you win.
 </h5>
-<h4 class="text-info">
+
+<h4>
 First consulting is totally free, submit your inquiries and get the best option for your business today.
 </h4>

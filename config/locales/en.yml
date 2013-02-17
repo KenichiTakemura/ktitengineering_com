@@ -9,6 +9,7 @@ en:
   loading: "Loading..."
   op:
     back: "Back"
+    close: "Close"
   header:
     business_copy: "For all small and personal business"
   form:

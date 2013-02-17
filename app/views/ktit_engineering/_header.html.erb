@@ -23,6 +23,7 @@
 					%>
 					</li>
 				<% end %>
+				<li><%= link_to_with_icon_remote(t("contact.us"), lodge_contacts_path(:id => "general", :locale => "#{I18n.locale}"), "", "", "icon-envelope-alt icon-spin", "header-contactus", "post")%></li>
 			</ul>
 		</div>
 	</div>

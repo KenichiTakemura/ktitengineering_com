@@ -1,4 +1,4 @@
-<div class="page-header">
+<div class="">
     <h1>我々は新しいITエンジニアの会社です。</h1>
     <div class="description">
 	    <p>K.T. IT Engineering はお客様のビジネスのベストITパートナーを目指します。</p>

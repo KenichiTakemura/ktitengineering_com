@@ -3,7 +3,7 @@
 		<h3><%= t("contact.us")%></h3>
 	</div>
 	<div class="" data-role="content">
-		<h5><%= t("contact.please_fillin")%></h5>
+		<h3><%= t("contact.please_fillin")%></h3>
 
 		<%= form_for(@contact, :url => {:action => "smart_create" ,:locale => I18n.locale}, :remote => true, :html => { :method => :post, :class => "contact_form", :data => {:ajax => "false" }}) do |f| %>
 		<%= f.hidden_field :contact_type %>
@@ -62,7 +62,7 @@
 
 
 	<div data-role="footer">
-		<a href="<%= smart_path%>"data-role="button"><%= t("op.back")%></a>
+		<a href="<%= smart_path(:locale => I18n.locale)%>"data-role="button"><%= t("op.back")%></a>
 	</div>
 
 </div>

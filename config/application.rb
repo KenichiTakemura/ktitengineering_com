@@ -76,5 +76,6 @@ module KtitengineeringCom
       html.html_safe
     }
 
+    config.assets.precompile += ['bootstrap.css','bootstrap.js','jquery.mobile-1.2.0.min.js','jquery.mobile.structure-1.2.0.min.css','jquery.mobile.theme-1.2.0.min.css']
   end
 end

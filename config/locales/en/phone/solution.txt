@@ -3,19 +3,19 @@ Larger IT compaies work on IT for large companies, but who works on small compan
 <br>
 Of course We do. 
 </strong></p>
-<h5>
+<p>
 Our engineers are well-experienced in Enterprise IT and open source communities. We know how to build your dream within a budget.
-</h5>
-<h5>
+</p>
+<p>
 Some business owners do not have enough time to spend thinking how good or bad IT is with their business.
-</h5>
-<h5>
+</p>
+<p>
 We are committed to support all small business owners. You want to be just professional in your business as we are professional in IT.
-</h5>
-<h4>
-<span class="text-success">Please talk to us when</span>
-</h4>
-<strong>
+</p>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+<h3>Please talk to us when</h3>
+
 <ul>
 <li><i class="icon-check"></i>&nbsp;Start you business</li>
 <li><i class="icon-check"></i>&nbsp;Change is about to happen in your business</li>
@@ -23,7 +23,7 @@ We are committed to support all small business owners. You want to be just profe
 <li><i class="icon-check"></i>&nbsp;Invest in your business</li>
 <li><i class="icon-check"></i>&nbsp;Just more funs in your business</li>
 </ul>
-</strong>
-<h4 class="text-info">
+</div>
+<h4>
 Please feel free to discuss. Submit your inquiries and get the best option for your business today.
 </h4>

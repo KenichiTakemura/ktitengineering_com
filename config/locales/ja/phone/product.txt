@@ -8,16 +8,20 @@
 <li><i class="icon-check"></i>&nbsp;SNSのプラグイン機能は、標準</li>
 <li><i class="icon-check"></i>&nbsp;しっかり安心のサポート</li>
 <li><i class="icon-check"></i>&nbsp;開発販売一体なので、カスタマイズも可能</li>
-<li><i class="icon-check"></i>&nbsp;お手頃価格、500$より</li>
+<li><i class="icon-check"></i>&nbsp;お手頃価格</li>
 </ul>
 
 <p>
 お気軽にお問い合わせください。
 </p>
+<small>
+<ul>
 <p>免責事項</p>
-<p class="muted"><small>価格は参考価格であり、WEBサイトにより価格は異なります。価格は通知なく変更となる場合があります。価格には、ドメイン名取得、ホスティング費用、サポート費用は含まれておりません。</small></p>
-<p class="muted"><small>６ヶ月の保守契約が別途必要です。</small></p>
-<p class="muted"><small>多言語対応は、追加言語毎に別途見積りが必要です。第一言語は英語、日本語、韓国語のいずれかから選択できます。</small></p>
-<p class="muted"><small>カスタマイズは、別途機能毎に見積りが必要です。</small></p>
-<p class="muted"><small>ソフトウェア要件、ホスティング要件については、別途お問い合わせください。</small></p>
+<li><small>価格は参考価格であり、WEBサイトにより価格は異なります。価格は通知なく変更となる場合があります。価格には、ドメイン名取得、ホスティング費用、サポート費用は含まれておりません。</small></li>
+<li><small>６ヶ月の保守契約が別途必要です。</small></li>
+<li><small>多言語対応は、追加言語毎に別途見積りが必要です。第一言語は英語、日本語、韓国語のいずれかから選択できます。</small></li>
+<li><small>カスタマイズは、別途機能毎に見積りが必要です。</small></li>
+<li><small>ソフトウェア要件、ホスティング要件については、別途お問い合わせください。</small></li>
+</ul>
+</small>
 

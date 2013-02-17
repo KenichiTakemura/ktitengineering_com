@@ -36,7 +36,7 @@
 	</div>
 
 	<div class="" data-role="content">
-		<h2><%= Style.get_flyer_text(locale) %></h2>
+		<h2><%= Style.get_flyer_text(locale, :phone) %></h2>
 		<ul data-role="listview" data-inset="false" data-filter="false">
 
 			<% Style.get_services.each do |s| %>
@@ -77,7 +77,7 @@
 	</div>
 
 	<div data-role="footer">
-		<a href="#main"　data-role="button"><%= t("op.back")%></a>
+		<a href="<%= smart_path(:locale => I18n.locale)%>"　data-role="button"><%= t("op.back")%></a>
 	</div>
 
 </div>

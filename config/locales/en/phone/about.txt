@@ -1,14 +1,14 @@
-<div class="page-header">
-    <h1>About Board <small>We are quite new so not much to say...</small></h1>
+<div class="">
+    <h1>We are quite new so not much to say...</h1>
     <div class="description">
 	    <p>K.T. IT Engineering was newly born to provide best IT service to all business players.</p>
 	</div>
 </div>
-<p class="lead">Our Mission</p>
+<p class=""><strong>Our Mission</strong></p>
 <p class="description">We are born to do with IT</p>
-<p class="lead">Our Commitment</p>
+<p class=""><strong>Our Commitment</strong></p>
 <p class="description">Make you focus on your business</p>
-<p class="lead">Our Goal</p>
+<p class=""><strong>Our Goal</strong></p>
 <p class="description">When your business wins we win.</p>
-<p class="lead">Our Staff</p>
+<p class=""><strong>Our Staff</strong></p>
 <p class="description">Our engineers are all professionals.</p>
